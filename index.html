@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    
+    
+    <main class="calc-wrapper">
+        <div class="container">
+            <form id="form">
+                <div class="heading">
+                    <h1 class="heading-title">Groom/Bride Calculator</h1>
+                </div>
+
+                <h4 class="subheader">Bride's name</h4>
+                <input type="text" id="name" class="namebox" style="padding-right: 0px;">
+
+                <h4 class="subheader">Starting bit</h4>
+                <input type="number" id="startingbid" class="namebox" style="padding-right: 0px;">
+
+                <h4 class="subheader">Education type</h4>
+               <select class="form-selected mt-3" id="education">
+                <option selected value="1">none</option>
+                <option value="1.5">Undergraduate degree</option>
+                <option value="1.2">College degree </option>
+                <option value="1.05">High school degree</option>
+                <option value="0.9">Middle school degree</option>
+               </select>
+
+
+               <h4 class="subheader">Bride's/Groom's family net worth</h4>
+               
+               <select class="form-selected mt-3" id="Worth">
+                <option selected value="1" name="worth">none</option>
+                <option value="2" name="worth">More than 10,000$</option>
+                <option value="1.5" name="worth">Between 5,000$ and 10,000$</option>
+                <option value="1.2" name="worth">Less than 5,000$</option>
+               </select>
+
+               <h4 class="subheader">Caste</h4>
+               
+               <select class="form-selected mt-3" id="caste">
+                <option selected value="1">none</option>
+                <option value="100">Brahmin</option>
+                <option value="50">Kshatriya</option>
+                <option value="20">Vaishya</option>
+                <option value="10">Shudra</option>
+                <option name= value="50">Varna</option>
+               </select>
+
+                <div class="calc-section">
+                    <label class="checkbox-wrapper title-bold section-title">Bride's/Groom's skills</label>
+                    <label class="radio-wrapper">
+                        <input type="checkbox" class="radio" name="skills" value="10" />
+                        <div class="title-lite">
+                            Playing on a musical instrument
+                        </div>
+                    </label>
+                    <label class="radio-wrapper">
+                        <input type="checkbox" class="radio" name="skills" value="20" />
+                        <div class="title-lite">
+                            Good cook
+                        </div>
+                    </label>
+                    <label class="radio-wrapper">
+                        <input type="checkbox" class="radio" name="skills" value="15" />
+                        <div class="title-lite">
+                            Easygoing character
+                        </div>
+                    </label>
+                </label>
+                <label class="radio-wrapper">
+                    <input type="checkbox" class="radio" name="skills" value="10" />
+                    <div class="title-lite">
+                        Sings well 
+                    </div>
+                </label>
+                </div>
+
+
+              
+                    <div class="age">
+                        <h4 class="checkbox-wrapper title-bold section-title">Bride's/Groom's age</h4>
+
+                        <label class="radio-wrapper" data-name="mobile">
+                        <input type="radio" class="radio" name="type" value="1.5" />
+                        <div class="title-lite">Between 18-23</div>
+                    </label>
+                    <label class="radio-wrapper" data-name="mobile">
+                        <input type="radio" class="radio" name="type" value="1.2" />
+                        <div class="title-lite">
+                            Between 24-27
+                        </div>
+                    </label>
+                    <label class="radio-wrapper" data-name="mobile">
+                        <input type="radio" class="radio" name="type" value="0.95" />
+                        <div class="title-lite">
+                            28+
+                        </div>
+                    </label>
+                    
+                </div>
+
+                
+                <div class="calc-section">
+                    <label class="checkbox-wrapper title-bold section-title">Bride's/Groom's reputation </label>
+                    <label class="radio-wrapper">
+                        <input type="checkbox" class="radio" name="reputation" value="0.85" />
+                        <div class="title-lite">
+                            Gossips about his/her parent's attitude
+                        </div>
+                    </label>
+                    <label class="radio-wrapper">
+                        <input type="checkbox" class="radio" name="reputation" value="0.9" />
+                        <div class="title-lite">
+                            Gossips about his/her character                             
+                           </div>
+                    </label>
+                    <label class="radio-wrapper">
+                        <input type="checkbox" class="radio" name="reputation" value="-20" />
+                        <div class="title-lite">
+                            General gossips around his/her person                               
+                         </div>
+                    </label>
+                </div>
+                
+    <h4 class="subheader">Love Letter</h4>
+    <textarea maxlength="500" id="loveLetter" class="ll"></textarea>
+
+           </form>
+        </div>
+    </main>
+
+
+    <footer class="footer footer-inner">
+        <div class="container">
+            <p class="footer-text">The web-site was made by <a href="https://github.com/mmalikov02">Maksut Malik</a> </p>
+        </div>
+    </footer>
+
+    <div class="container"> 
+        <button class="button_margin">Calculate</button>
+        <br>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

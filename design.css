@@ -1,0 +1,122 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #161616;
+	margin: 0;
+
+	padding-bottom: 140px;
+}
+
+.container {
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.subheader{
+margin-bottom: 0;
+font-size: 20px;
+}
+
+.namebox{
+    font-family: inherit;
+    font-size: inherit;
+       line-height: inherit;
+       padding: 10px;
+       margin:0;
+       width: 50%;
+}
+
+select{
+ font-family: inherit;
+ font-size: inherit;
+    line-height: inherit;
+    padding: 10px;
+    margin:0;
+    width: 50%;
+}
+.mt-3{
+margin-top: 5px;
+}
+
+.calc-wrapper {
+	padding-top: 50px;
+	padding-bottom: 75px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.heading {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.heading-title {
+	margin: 0;
+	margin-bottom: 15px;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1;
+	letter-spacing: 0.48px;
+	text-align: center;
+}
+
+
+.calc-section {
+	padding: 40px 50px;
+	background-color: #f4f8fa;
+    margin-top: 20px;
+}
+
+.age{
+	padding: 40px 50px;
+	background-color: #fff;
+}
+
+.radio-wrapper {
+	display: flex;
+}
+
+.radio-wrapper .radio {
+	margin-top: 9px;
+}
+
+.radio-wrapper .radio {
+	margin-right: 15px;
+	margin-top: 6px;
+}
+
+
+.title-bold {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.title-lite {
+	font-size: 20px;
+	font-weight: 300;
+} 
+
+
+.checkbox-wrapper {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.checkbox-wrapper .checkbox {
+	margin-right: 15px;
+}
+
+.hidden {
+	display: none;
+}
+
+.ll{
+    width: 795px;
+    height: 200px;
+}
+
+.range-input {
+	width: 100%;
+    
+}
+
